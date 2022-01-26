@@ -49,6 +49,8 @@ void start()
     Console.WriteLine("Задайте размер массива: ");
     int arrayLen = int.Parse(Console.ReadLine());
 
+    Console.WriteLine("Введите значения для массива: ");
+
     string[] wordArray = new string[arrayLen];
     FillArray(wordArray);
 
